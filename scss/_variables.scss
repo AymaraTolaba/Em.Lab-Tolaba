@@ -1,0 +1,38 @@
+/*colores*/
+$color-footer: #98fcee;
+$color-principal: #6250b4;
+$color-secundario: #858386;
+$color-terciario:  #f8b1f8;
+$color-neutro: black;
+
+/*tipografia*/
+$type-normal: 300;
+$type-bold: 700;
+$type-light: 200;
+$type-font: "Poppins" , sans-serif;
+
+$font-titulo-s: 20px;
+$font-titulo-m: 24px;
+$font-titulo-l: 30px;
+$font-titulo-xl: 36px;
+
+$font-parrafo-xs: 8px;
+$font-parrafo-s: 10px;
+$font-parrafo-m: 14px;
+$font-parrafo-l: 16px;
+
+@mixin titulo-s($font-titulo-m, $type-light) {
+    font-size: $font-titulo-m;
+    font-weight: $type-light;
+}
+@mixin titulo-m($font-titulo-l, $type-light) {
+    font-size: $font-titulo-l;
+    font-weight: $type-light;
+}
+@mixin titulo-l($font-titulo-xl, $type-light) {
+    font-size: $font-titulo-xl;
+    font-weight: $type-light;
+}
+
+$width_p: 250px;
+$width_img: 31.25rem;

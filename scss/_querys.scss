@@ -1,0 +1,777 @@
+@media (max-width:576px){
+    .container{
+        padding: 1rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .firts{
+        margin-top: 6rem;
+    }
+    .firts-diseño{
+        margin-top: 6rem;
+        padding-left: 3rem;
+        color: $color-principal;
+    }
+    .card-icon{
+        max-width: 80px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: .5rem;
+    }
+    .container__div--nosotros{
+        img{
+            height: auto;
+            width: 100%;
+            margin: 1rem 0 0 0;
+        }
+        p{
+            width: 100%;
+            height: auto;
+            font-size: $font-parrafo-s;
+            padding-top: 1rem;
+        }
+        h1{
+            display: block;
+            width: 100%;
+            color: $color-principal;
+            @include titulo-s(24px, 200);
+        }
+    }
+    .container__fondo--servicios{
+        padding: 1rem;
+    }
+    .container__section--equipo{
+        display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        margin-top: 5rem;
+    }
+    .container__div--equipo{
+        img{
+            height: auto;
+            max-width: 540px;
+            width: 100%;
+            padding-bottom: 2rem;
+        }
+        p{
+            width: 100%;
+            height: auto;
+            margin: auto;
+            padding-bottom: 1rem;
+            font-size: $font-parrafo-m;
+        }
+        h3{
+            display: block;
+            width: 100%;
+            color: $color-principal;
+            @include titulo-s(24px, 200);
+        }
+    }
+    .datos{
+        display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+    }
+    .contact{
+        width: 100%;
+        margin: auto auto 1rem auto;
+        padding: 0;
+        div{
+            padding-top: .5rem;
+            font-size: 12px;
+            .label{
+                font-weight: $type-bold;
+                display: block;
+            }
+            .input{
+                width: 100%;
+            }
+            .texto{
+                width: 100%;
+            }
+        }
+    }
+    .container__footer{
+        display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: flex-start;        
+        padding: 1.5rem 1rem 1.6rem 1rem;
+        margin: 0;
+    }
+    .container__footer--redes{
+        display: flex;
+        height: auto;
+        width: 100%;
+        padding-right: .8rem;
+            h4{
+                display: flex;
+                height: auto;
+                width: 100%;
+                font-size: $font-titulo-s;
+            }
+            p{
+                display: flex;
+                width: 100%;
+                height: auto;
+                margin-top: 0px;
+                font-size: $font-parrafo-xs;
+            }
+    }
+    .container__footer--newsletter{
+        display: flex;
+        width: 100%;
+        padding: 0.8rem 0 0 0;
+            h4{
+                display: flex;
+                height: auto;
+                width: 100%;
+                font-size: $font-titulo-s;
+            }
+            p{
+                display: flex;
+                width: 100%;
+                height: auto;
+                margin-top: 0px;
+                font-size: $font-parrafo-xs;
+            }
+
+    }
+    .email{
+        font-size: $font-parrafo-m;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 768px){
+    .container{
+        padding: 1rem 0 0 0;
+    }
+    .firts{
+        margin-top: 6rem;
+    }
+    .firts-diseño{
+        margin-top: 6rem;
+        padding-left: 3rem;
+        color: $color-principal;
+    }
+    .second{
+        margin-top: 6rem;
+    }
+    .card-icon{
+        max-width: 80px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: .5rem;
+    }
+    .container__div--nosotros{
+        img{
+            height: auto;
+            margin: 1rem 0 1rem 0;
+            max-width: 760px;
+            width: 100%;
+        }
+        p{
+            width: 100%;
+            height: auto;
+            margin: 0;
+            font-size: $font-parrafo-m;
+            padding-top: 1rem;
+        }
+        h1{
+            display: block;
+            width: 100%;
+            color: $color-principal;
+            @include titulo-m(30px, 200);
+        }
+    }
+    .container__fondo--servicios{
+        padding: 1rem;
+    }
+    .container__section--equipo{
+        display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        margin-top: 5rem;
+    }
+    .container__div--equipo{
+        img{
+            height: auto;
+            max-width: 740px;
+            width: 100%;
+            padding-bottom: 2rem;
+        }
+        p{
+            width: 100%;
+            height: auto;
+            margin: auto;
+            padding-bottom: 1rem;
+            font-size: $font-parrafo-m;
+        }
+        h3{
+            display: block;
+            width: 100%;
+            color: $color-principal;
+            @include titulo-m(30px, 200);
+        }
+    }
+    .datos{
+        display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+        margin: 6rem auto 1rem auto;
+    }
+    .contact{
+        width: 100%;
+        padding-right: 2rem;
+        div{
+            padding-top: .5rem;
+            font-size: 12px;
+            .label{
+                font-weight: $type-bold;
+                display: block;
+            }
+            .input{
+                width: 100%;
+            }
+            .texto{
+                width: 100%;
+            }
+        }
+    }
+    .container__footer{
+        display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: space-between;
+            align-items: flex-start;        
+        padding: 2rem 1.5rem 1.6rem 1.4rem;
+    }
+    .container__footer--redes{
+        display: flex;
+        height: auto;
+        width: 100%;
+        padding-right: .8rem;
+            h4{
+                display: flex;
+                height: auto;
+                width: 100%;
+                font-size: $font-titulo-s;
+            }
+            p{
+                display: flex;
+                width: 100%;
+                height: auto;
+                margin-top: 0px;
+                font-size: $font-parrafo-xs;
+            }
+    }
+    .container__footer--newsletter{
+        display: flex;
+        width: 100%;
+            h4{
+                display: flex;
+                height: auto;
+                width: 100%;
+                font-size: $font-titulo-s;
+            }
+            p{
+                display: flex;
+                width: 100%;
+                height: auto;
+                margin-top: 0px;
+                font-size: $font-parrafo-xs;
+            }
+        
+    }
+    .email{
+        font-size: $font-parrafo-m;
+    }
+
+}
+
+@media (min-width: 769px) and (max-width: 992px){
+    .col{
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+    .firts{
+        margin-top: 6rem;
+    }
+    .firts-diseño{
+        margin-top: 6rem;
+        padding-left: 3rem;
+        color: $color-principal;
+    }
+    .second{
+        margin-top: 6rem;
+    }
+    .card-icon{
+        max-width: 80px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: .5rem;
+    }
+    .container__section--nosotros{
+        display: flex;
+            flex-direction: row;
+            flex-wrap:nowrap;
+            justify-content: space-between;
+        max-width: 900px;
+        width: 100%;
+        padding: 3rem 2rem 3rem 2rem;
+    }
+    .container__div--nosotros{
+        img{
+            height: auto;
+            margin: 1rem 0 1rem 0;
+            width: 900px;
+            max-width: 100%;
+        }
+        p{
+            width: 90%;
+            height: auto;
+            margin: 0;
+            font-size: $font-parrafo-m;
+            padding-top: 1rem;
+        }
+        h1{
+            display: block;
+            width: 100%;
+            color: $color-principal;
+            @include titulo-l(36px, 200);
+        }
+    }
+    .container__fondo--servicios{
+        padding: 1rem;
+    }
+    .container__section--equipo{
+        display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: space-between;
+        margin: 5rem auto 0 auto;
+        padding: 3rem 2rem 3rem 2rem;
+        max-width: 940px;
+    }
+    .container__div--equipo{
+        img{
+            height: auto;
+            max-width: 940px;
+            width: 100%;
+            padding: 0;
+        }
+        p{
+            width: 100%;
+            height: auto;
+            margin: 0;
+            padding: 0 1rem 1rem 0;
+            font-size: $font-parrafo-m;
+        }
+        h3{
+            display: block;
+            width: 100%;
+            color: $color-principal;
+            @include titulo-l(36px, 200);
+        }
+    }
+    .datos{
+        display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+        margin: 6rem auto 1rem auto;
+        padding: 0;
+    }
+    .contact{
+        width: 50%;
+        padding-right: 2rem;
+        div{
+            padding-top: .5rem;
+            font-size: 12px;
+            .label{
+                font-weight: $type-bold;
+                display: block;
+            }
+            .input{
+                width: 100%;
+            }
+            .texto{
+                width: 100%;
+            }
+        }
+    }
+    .container__footer{
+        display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: space-between;
+            align-items: flex-start;        
+        padding: 2rem 1.5rem 1.6rem 1.4rem;
+    }
+    .container__footer--redes{
+        display: flex;
+        height: auto;
+        width: 100%;
+        padding-right: .8rem;
+            h4{
+                display: flex;
+                height: auto;
+                width: 100%;
+                font-size: $font-titulo-s;
+            }
+            p{
+                display: flex;
+                width: 100%;
+                height: auto;
+                margin-top: 0px;
+                font-size: $font-parrafo-s;
+            }
+    }
+    .container__footer--newsletter{
+        display: flex;
+        width: 100%;
+            h4{
+                display: flex;
+                height: auto;
+                width: 100%;
+                font-size: $font-titulo-s;
+            }
+            p{
+                display: flex;
+                width: 100%;
+                height: auto;
+                font-size: $font-parrafo-s;
+            }
+        
+    }
+    .email{
+        font-size: $font-parrafo-m;
+    }
+
+}
+
+@media (min-width: 993px) and (max-width: 1200px){
+    .col{
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+    .firts{
+        margin-top: 6rem;
+    }
+    .firts-diseño{
+        margin-top: 6rem;
+        padding-left: 3rem;
+        color: $color-principal;
+    }
+    .second{
+        margin-top: 6rem;
+    }
+    .card-icon{
+        max-width: 80px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: .5rem;
+    }
+    .container__section--nosotros{
+        display: flex;
+            flex-direction: row;
+            flex-wrap:nowrap;
+            justify-content: space-around;
+        max-width: 1150px;
+        width: 100%;
+        padding: 5rem 2rem 3rem 2rem;
+    }
+    .container__div--nosotros{
+        img{
+            height: auto;
+            margin: 1rem 0 1rem 0;
+            max-width: 1100px;
+            width: 100%;
+        }
+        p{
+            width: 90%;
+            height: auto;
+            margin: 0;
+            font-size: $font-parrafo-m;
+            padding-top: 1rem;
+        }
+        h1{
+            display: block;
+            width: 100%;
+            color: $color-principal;
+            @include titulo-l(36px, 200);
+        }
+    }
+    .container__fondo--servicios{
+        padding: 1rem;
+    }
+    .container__section--equipo{
+        display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: space-between;
+        margin: 5rem auto 0 auto;
+        padding: 3rem 2rem 3rem 2rem;
+        max-width: 1150px;
+    }
+    .container__div--equipo{
+        img{
+            height: auto;
+            max-width: 1150px;
+            width: 100%;
+            padding: 0;
+        }
+        p{
+            width: 100%;
+            height: auto;
+            margin: 0;
+            padding: 0 1rem 1rem 0;
+            font-size: $font-parrafo-l;
+        }
+        h3{
+            display: block;
+            width: 100%;
+            color: $color-principal;
+            @include titulo-l(36px, 200);
+        }
+    }
+    .datos{
+        display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+        margin: 6rem auto 1rem auto;
+        padding: 0;
+        width: 100%;
+    }
+    .contact{
+        padding-right: 2rem;
+        width: 50%;
+        div{
+            padding-top: .5rem;
+            font-size: $font-parrafo-m;
+            .label{
+                font-weight: $type-bold;
+                display: block;
+            }
+            .input{
+                width: 100%;
+            }
+            .texto{
+                width: 100%;
+            }
+        }
+    }
+    .container__footer{
+        display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: space-between;
+            align-items: flex-start;        
+        padding: 2.5rem 2rem 1.6rem 2rem;
+    }
+    .container__footer--redes{
+        display: flex;
+        height: auto;
+        width: 100%;
+        padding-right: .8rem;
+            h4{
+                display: flex;
+                height: auto;
+                width: 100%;
+                font-size: $font-titulo-s;
+            }
+            p{
+                display: flex;
+                width: 100%;
+                height: auto;
+                margin-top: 0px;
+                font-size: $font-parrafo-s;
+            }
+    }
+    .container__footer--newsletter{
+        display: flex;
+        width: 100%;
+            h4{
+                display: flex;
+                height: auto;
+                width: 100%;
+                font-size: $font-titulo-s;
+            }
+            p{
+                display: flex;
+                width: 100%;
+                height: auto;
+                margin-top: 0px;
+                font-size: $font-parrafo-s;
+            }
+        
+    }
+    .email{
+        font-size: $font-parrafo-m;
+    }
+}
+@media (min-width: 1201px) and (max-width: 1400px){
+    .col{
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+    .firts{
+        margin-top: 6rem;
+    }
+    .firts-diseño{
+        margin-top: 6rem;
+        padding-left: 3rem;
+        color: $color-principal;
+    }
+    .second{
+        margin-top: 6rem;
+    }
+    .card-icon{
+        width: 80px;
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: .5rem;
+    }
+    .container__section--nosotros{
+        display: flex;
+            flex-direction: row;
+            flex-wrap:nowrap;
+            justify-content: space-around;
+        width: 100%;
+        max-width: 1350px;
+        padding: 5rem 2rem 3rem 2rem;
+    }
+    .container__div--nosotros{
+        img{
+            height: auto;
+            margin: 1rem 0 1rem 0;
+            max-width: 1350px;
+            width: 100%;
+        }
+        p{
+            width: 90%;
+            height: auto;
+            margin: 0;
+            font-size: $font-parrafo-l;
+            padding-top: 1rem;
+        }
+        h1{
+            display: block;
+            width: 100%;
+            color: $color-principal;
+            @include titulo-l(36px, 200);
+        }
+    }
+    .container__fondo--servicios{
+        padding: 1rem;
+    }
+    .container__section--equipo{
+        display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: space-between;
+        margin: 5rem auto 0 auto;
+        padding: 3rem 2rem 3rem 2rem;
+        max-width: 1150px;
+    }
+    .container__div--equipo{
+        img{
+            height: auto;
+            max-width: 1350px;
+            width: 100%;
+            padding: 0;
+        }
+        p{
+            width: 100%;
+            height: auto;
+            margin: 0;
+            padding: 0 1rem 1rem 0;
+            font-size: $font-parrafo-l;
+        }
+        h3{
+            display: block;
+            width: 100%;
+            color: $color-principal;
+            @include titulo-l(36px, 200);
+        }
+    }
+    .datos{
+        display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+        margin: 6rem auto 1rem auto;
+        padding: 0;
+        width: 100%;
+    }
+    .contact{
+        padding-right: 2rem;
+        width: 50%;
+        div{
+            padding-top: .5rem;
+            font-size: $font-parrafo-m;
+            .label{
+                font-weight: $type-bold;
+                display: block;
+            }
+            .input{
+                width: 100%;
+            }
+            .texto{
+                width: 100%;
+            }
+        }
+    }
+    .container__footer{
+        display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: space-between;
+            align-items: flex-start;        
+        padding: 3rem 2rem 1.6rem 2rem;
+    }
+    .container__footer--redes{
+        display: flex;
+        height: auto;
+        width: 100%;
+        padding-right: .8rem;
+            h4{
+                display: flex;
+                height: auto;
+                width: 100%;
+                font-size: $font-titulo-s;
+            }
+            p{
+                display: flex;
+                width: 100%;
+                height: auto;
+                margin-top: 0px;
+                font-size: $font-parrafo-s;
+            }
+    }
+    .container__footer--newsletter{
+        display: flex;
+        width: 100%;
+            h4{
+                display: flex;
+                height: auto;
+                width: 100%;
+                font-size: $font-titulo-s;
+            }
+            p{
+                display: flex;
+                width: 100%;
+                height: auto;
+                margin-top: 0px;
+                font-size: $font-parrafo-s;
+            }
+        
+    }
+    .email{
+        font-size: $font-parrafo-m;
+    }
+}
